@@ -72,8 +72,13 @@ void callback(char* topic, byte* payload, unsigned int length) {
   getMsg(topic, message);
 }
 
-void setMsgTemp(String temp){
+void setMsgTemp(String temp, String hum){
   String data = "{\"data\":{\"temp\": " + temp + "}}";
+  Serial.println(data);
+  data.toCharArray(msg , (data.length() + 1));
+  client.publish("@shadow/data/update", msg);
+
+  data = "{\"data\":{\"hum\": " + hum + "}}";
   Serial.println(data);
   data.toCharArray(msg , (data.length() + 1));
   client.publish("@shadow/data/update", msg);
@@ -133,7 +138,7 @@ void loop() {
     if (isnan(h) || isnan(t)) {
       Serial.println(F("Failed to read from DHT sensor!"));
     }else{
-      setMsgTemp(String(t));
+      setMsgTemp(String(t),String(h));
       Serial.print(F("Humidity: "));
       Serial.print(h);
       Serial.print(F("%  Temperature: "));
