@@ -1,0 +1,11 @@
+# IoT — เอกสารประกอบการสอน (Markdown)
+
+- [ตอนที่ 1: การติดตั้งโปรแกรม Arduino IDE และไลบรารี (Library)](ch1_IOTpart1_1ADV/ch1_IOTpart1_1ADV.md)
+- [ตอนที่ 2: ทำความรู้จักกับบอร์ด ESP32](ch1_IOTpart1_1ADV/ch1_IOTpart1_1ADV.md)
+- [ตอนที่ 3: การใช้งานบอร์ดขยายขา ESP32](ch1_IOTpart1_1ADV/ch1_IOTpart1_1ADV.md)
+- [ตอนที่ 4: ทำความเข้าเริ่มต้นเกี่ยวกับการเขียนโปรแกรม Arduino](ch1_IOTpart1_2ADV/ch1_IOTpart1_2ADV.md)
+- [ตอนที่ 5: การเขียนโปรแกรมควบคุมอุปกรณ์ด้วย ESP32](ch1_IOTpart1_2ADV/ch1_IOTpart1_2ADV.md)
+- [ตอนที่ 6: การเขียนโปรแกรมเพื่อแสดงค่าบน Blynk Platform](ch1_IOTpart2ADV/ch1_IOTpart2ADV.md)
+- [ตอนที่ 7: การเขียนโปรแกรมผ่าน NETPIE](ch1_IOTpart3ADV/ch1_IOTpart3ADV.md)
+- [ตอนที่ 8: การพัฒนาแอปพลิเคชันบนมือถือควบคุมอุปกรณ์ IoT](ch1_IOTpart4ADV/ch1_IOTpart4ADV.md)
+- [ตอนที่ 9: การพัฒนาแอปพลิเคชันบนมือถือควบคุมอุปกรณ์ IoT ด้วย Firestore](ch1_IOTpart5ADV/ch1_IOTpart5ADV.md)
