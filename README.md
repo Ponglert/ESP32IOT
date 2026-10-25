@@ -1,4 +1,4 @@
-# IoT — เอกสารประกอบการสอน (Markdown)
+﻿# IoT — เอกสารประกอบการสอน (Markdown)
 
 - [ตอนที่ 1: การติดตั้งโปรแกรม Arduino IDE และไลบรารี (Library)](ch1_IOTpart1_1ADV/ch1_IOTpart1_1ADV.md)
 - [ตอนที่ 2: ทำความรู้จักกับบอร์ด ESP32](ch1_IOTpart1_1ADV/ch1_IOTpart1_1ADV.md)
@@ -9,3 +9,6 @@
 - [ตอนที่ 7: การเขียนโปรแกรมผ่าน NETPIE](ch1_IOTpart3ADV/ch1_IOTpart3ADV.md)
 - [ตอนที่ 8: การพัฒนาแอปพลิเคชันบนมือถือควบคุมอุปกรณ์ IoT](ch1_IOTpart4ADV/ch1_IOTpart4ADV.md)
 - [ตอนที่ 9: การพัฒนาแอปพลิเคชันบนมือถือควบคุมอุปกรณ์ IoT ด้วย Firestore](ch1_IOTpart5ADV/ch1_IOTpart5ADV.md)
+
+https://padlet.com/asakuratran/app-iot-s024txx82ykgkdxvv9l1
+
